@@ -4,9 +4,9 @@ from urllib.parse import quote_plus
 
 app = Flask(__name__)
 
-TOMORROW_API_KEY = 'ba6h2MiL8l1tRWFQtWnR3ce8bsC3s1Ca'
-GOOGLE_MAPS_API_KEY = 'AIzaSyCI6KxsjrjvKqKpqCSlwrdgzzqbigRJ-jk'
-IPINFO_API_KEY = '28f772be3811cd'
+TOMORROW_API_KEY = ''
+GOOGLE_MAPS_API_KEY = ''
+IPINFO_API_KEY = ''
 
 @app.route('/')
 def index():
